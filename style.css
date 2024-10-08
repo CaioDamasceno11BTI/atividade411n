@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f8f9fa;
+    color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.primeira {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 189, 189);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.primeira img {
+    width: 20rem;
+    height: auto;
+    border-radius: 8px;
+}
+
+.primeira p {
+    max-width: 400px;
+    margin-right: 1rem;
+}
+
+.segunda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffeec0;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    height: 25rem; 
+}
+
+.segunda img {
+    width: 15rem;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 1rem;
+}
+
+.segunda p {
+    max-width: 400px;
+}
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.terceira img {
+    width: 15rem;
+    height: auto;
+    border-radius: 8px;
+}
+
+.terceira {
+    margin-top: 2rem;
+}
+
